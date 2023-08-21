@@ -1,4 +1,4 @@
-# Desafio Técnico DevOps Sênior
+# Desafio Técnico DevOps
 
 Esse é um desafio feito para avaliação para a vaga de DevOps na Varsomics. Não se trata de um teste objetivo, capaz de gerar uma nota ou uma taxa de acerto, mas sim de um estudo de caso com o propósito de conhecer os seus conhecimentos, experiências e modo de trabalhar. Sinta-se livre para desenvolver a sua solução para o problema proposto.
 
@@ -14,7 +14,7 @@ Abaixo listamos os requisitos que a sua solução deve comportar para o ambiente
 
 - A aplicação em questão será separada em um front-end desenvolvido utilizando o framework Django do Python e uma API controladora do serviço desenvolvida utilizando o framework FastAPI, também do Python. O servidor da API e eventuais outros serviços que são gerenciados pela aplicação deverão ser implantados utilizando Kubernetes. As informações de usuários e análises realizadas deverão ser mantidas em um banco de dados relacional.
 - Os arquivos de entrada deverão ficar disponíveis durante um ano, depois podem ser apagados.
-- A parte da análise de espectrometria de massa será realizada de forma automatizada utilizando os serviços AWS Step Functions e AWS Batch. Os recursos serão invocados pela aplicação. O fluxo de análise será submetido por demanda de acordo com as solicitações realizadas na aplicação.
+- A parte da análise de espectrometria de massa será realizada de forma automatizada utilizando os serviços AWS Step Functions (Orquestração) e AWS Batch (Execução). Os recursos serão invocados pela aplicação. O fluxo de análise será submetido por demanda de acordo com as solicitações realizadas na aplicação.
 - Os arquivos de resultados das análises deverão estar disponíveis para consulta por 5 anos.
 - Os dados das análises deverão ser ingeridos no serviço Amazon Redshift para futuras análises.
 
@@ -22,7 +22,7 @@ Abaixo listamos os requisitos que a sua solução deve comportar para o ambiente
 ## Entrega
 
 1. O documento deverá conter diagrama(s) da infraestrutura de forma a exemplificar a solução proposta. E descrição passo a passo do provisionamento da solução.
-2. O documento deverá ser enviado até terça-feira, dia 1 de novembro de 2022, para a Deborah Elias Roveran Rocha deborah.srocha@einstein.br. 
+2. O documento deverá ser enviado até domingo, dia 27 de agosto de 2023, para o Leonardo Gasparotto Menini (leonardo.menini@einstein.br). 
 3. Nós iremos agendar uma reunião com no máximo 1 hora de duração para que você apresente a arquitetura proposta. A apresentação deverá ser audiovisual (slides). Após a apresentação será feita uma sessão de perguntas e respostas.
 
 
