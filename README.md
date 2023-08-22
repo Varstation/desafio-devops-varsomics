@@ -14,9 +14,8 @@ Abaixo listamos os requisitos que a sua solução deve comportar para o ambiente
 
 - A aplicação em questão será separada em um front-end desenvolvido utilizando o framework Django do Python e uma API controladora do serviço desenvolvida utilizando o framework FastAPI, também do Python. O servidor da API e eventuais outros serviços que são gerenciados pela aplicação deverão ser implantados utilizando Kubernetes. As informações de usuários e análises realizadas deverão ser mantidas em um banco de dados relacional.
 - Os arquivos de entrada deverão ficar disponíveis durante um ano, depois podem ser apagados.
-- A parte da análise de espectrometria de massa será realizada de forma automatizada utilizando os serviços AWS Step Functions (Orquestração) e AWS Batch (Execução). Os recursos serão invocados pela aplicação. O fluxo de análise será submetido por demanda de acordo com as solicitações realizadas na aplicação.
+- A parte da análise de espectrometria de massa será realizada de forma automatizada utilizando os serviços AWS Step Functions (Orquestração) e AWS Batch (Execução). Os arquivos finais devem ser armazenados no AWS S3. Os recursos serão invocados pela aplicação. O fluxo de análise será submetido por demanda de acordo com as solicitações realizadas na aplicação.
 - Os arquivos de resultados das análises deverão estar disponíveis para consulta por 5 anos.
-- Os dados das análises deverão ser ingeridos no serviço Amazon Redshift para futuras análises.
 
 
 ## Entrega
