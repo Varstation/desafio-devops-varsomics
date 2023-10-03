@@ -21,7 +21,7 @@ Abaixo listamos os requisitos que a sua solução deve comportar para o ambiente
 ## Entrega
 
 1. O documento deverá conter diagrama(s) da infraestrutura de forma a exemplificar a solução proposta. Deve também conter a descrição passo a passo do provisionamento da solução, bem como a descrição de possíveis soluções para mitigação de problemas que ferem as boas práticas de segurança e DevOps na nuvem.
-2. O documento deverá ser enviado até segunda-feira, dia 28 de agosto de 2023, para o Leonardo Gasparotto Menini (leonardo.menini@einstein.br). Dúvidas sobre o desafio também podem ser encaminhadas diretamente para o ee-mail anterior. 
+2. O documento deverá ser enviado até terça-feira, dia 10 de outubro de 2023, para o Leonardo Gasparotto Menini (leonardo.menini@einstein.br). Dúvidas sobre o desafio também podem ser encaminhadas diretamente para o ee-mail anterior. 
 3. Nós iremos agendar uma reunião com no máximo 1 hora de duração para que você apresente a arquitetura proposta (duração máxima da apresentação de 20 minutos). A apresentação deverá ser audiovisual (slides). Após a apresentação será feita uma sessão de perguntas e respostas.
 
 
